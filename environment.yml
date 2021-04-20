@@ -1,0 +1,13 @@
+name: gsa
+channels:
+  - conda-forge
+  - defaults
+  - ostrokach-forge
+  - pkgw-forge
+dependencies:
+  - jupyter
+  - pip
+  - geopandas
+  - pip:
+    - OSMPythonTools
+prefix: /Users/Jeff/anaconda3/anaconda3/envs/gsa
